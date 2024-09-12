@@ -9,8 +9,8 @@ const config: Config = {
   ],
   theme: {
 	fontFamily: {
-		sans: ['var(--font-geist-sans)'],
-		caption : ["var(--font-caption"],
+		sans: ["var(--font-geist-sans)"],
+		caption : ["var(--font-caption)"],
 	  },
   	extend: {
   		colors: {
