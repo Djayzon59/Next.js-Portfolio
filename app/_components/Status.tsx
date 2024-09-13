@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
-import { Building2, Code, Gem, LucideIcon } from "lucide-react";
+import { Building2, Gem, LucideIcon } from "lucide-react";
 import Link from "next/link";
 
 export const Status = () => {
@@ -131,4 +131,3 @@ const Work = (props: WorkProps) => {
         </Link>
     );
 };
-;
