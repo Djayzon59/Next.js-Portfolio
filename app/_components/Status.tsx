@@ -52,7 +52,7 @@ export const Status = () => {
                         name ="07 80 55 20 23" 
                         image="moir.png" 
                         mediumImage="https://get-picto.com/wp-content/uploads/2024/03/Logo-telephone-PNG-bleu.webp"
-                        description="Tel"/>
+                        description="Phone"/>
                 </Card>
                 
             </div>
@@ -68,7 +68,7 @@ const ContactCard = (props: {
     description: string;
 }) => {
     return (
-        <Card className="p-3 bg-accent/10 hover:bg-accent/30 transition-colors flex items-center gap-4">
+        <Card className="p-3 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4">
             <div className="relative">
                 <img src={props.image} alt={props.name} className="w-8 h-8 rounded-full object-contain"/>
                 <img src={props.mediumImage} alt={props.name} className="w-4 h-4 absolute -bottom-1 -right-1"/>
@@ -79,7 +79,7 @@ const ContactCard = (props: {
                 </div>
                 <p className="text-xs text-muted-foreground">{props.description}</p>
             </div>
-            <ArrowUpRight size={16}/>
+            <ArrowUpRight className="group-hover:tranlate-x-2 mr-4 group-hover:-translate-y-2 transition-transform" size={16}/>
         </Card>
     )
 
