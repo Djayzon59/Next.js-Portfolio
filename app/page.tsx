@@ -20,6 +20,8 @@ export default function Home() {
       <Spacing size="md"/>
 
       <Skills />
+
+      <Spacing size="md"/>
    </main>
   );
 }
